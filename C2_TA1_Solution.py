@@ -28,22 +28,22 @@ while carryOn:
     # Updating the x and y position of the ball on screen by 1 unit
     ball.x = ball.x + ballx
     ball.y = ball.y + bally
-    
+ 
     # Limiting ball movement on screen along x-axis
     if ball.x >= 590:
       ballx = -ballx
     if ball.x <= 10:
-      ball.x =- ballx
+      ballx = -ballx
     # Limiting ball movement on screen along y-axis 
     if ball.y >= 590:
-      bally =- bally
+      bally = -bally
     if ball.y <= 10:
-      bally =- bally
+      bally = -bally
     
     # Drawing the white colored ball on screen. RGB combination for white is (255,255,255)  
     pygame.draw.rect(screen,(255,255,255) ,ball)
     # Update x and y positions of the ball every 20 milliseconds.    
-    pygame.time.wait(20) # Adding this will enable us to monitor the speed with which ball moves.
+    pygame.time.wait(50) # Adding this will enable us to monitor the speed with which ball moves.
     # Update the contents of entire display
     pygame.display.flip()
 # Quit the game    
