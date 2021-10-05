@@ -40,7 +40,6 @@ while carryOn:
     
     
     
-    
     # Drawing the white colored ball on screen. RGB combination for white is (255,255,255)  
     pygame.draw.rect(screen,(255,255,255) ,ball)
     # Updating x and y positions of the ball every 20 seconds.    
