@@ -30,7 +30,7 @@ while carryOn:
     ball.y = ball.y+bally
     
     # Limiting ball movement on screen along x-axis
-    if ball.x> = 590:
+    if ball.x >= 590:
       ballx = -ballx
     if ball.x <= 10:
       ball.x =- ballx
@@ -48,4 +48,3 @@ while carryOn:
     pygame.display.flip()
 # Quit the game    
 pygame.quit()
-
