@@ -49,6 +49,3 @@ while carryOn:
     pygame.display.flip()
 # Quit the game    
 pygame.quit()
-
-
-
