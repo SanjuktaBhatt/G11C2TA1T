@@ -10,7 +10,7 @@ pygame.display.set_caption("Breakout Game")
 paddle = pygame.Rect(300,500,60,10)
 ball = pygame.Rect(200,250,10,10)
 
-# Create variables "ballx" and "bally" and assigning the value 1 to both
+# Create variables "ballx" and "bally" and assign the value 1 to both
 
 
 
@@ -29,12 +29,12 @@ while carryOn:
     
     
     
-    # Screen boundaries for x-axis
+    # Limit ball movement on screen along x-axis
     
     
     
     
-    # Screen boundaries for y-axis 
+    # Limit ball movement on screen along y-axis 
     
     
     
