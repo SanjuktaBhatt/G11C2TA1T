@@ -25,16 +25,16 @@ while carryOn:
     # Drawing the lightblue colored paddle on screen. RGB combination for lightblue is (0,176,240)
     pygame.draw.rect(screen,(0,176,240),paddle)
     
-    # Update varaibles "ballx" and "bally" to update the position of the ball
+    # Updating varaibles "ballx" and "bally" to update the position of the ball
     ball.x = ball.x+ballx
     ball.y = ball.y+bally
     
-    # Screen boundaries for x-axis
+    # Limiting ball movement on screen along x-axis
     if ball.x> = 590:
       ballx = -ballx
     if ball.x <= 10:
       ball.x =- ballx
-    # Screen boundaries for y-axis 
+    # Limiting ball movement on screen along y-axis 
     if ball.y >= 590:
       bally =- bally
     if ball.y <= 10:
