@@ -42,7 +42,7 @@ while carryOn:
     
     # Drawing the white colored ball on screen. RGB combination for white is (255,255,255)  
     pygame.draw.rect(screen,(255,255,255) ,ball)
-    # Updating x and y positions of the ball every 20 seconds.    
+    # Updating x and y positions of the ball every 20 milliseconds.    
     pygame.time.wait(20) # Adding this will enable us to monitor the speed with which ball moves.
     # Updating the contents of entire display
     pygame.display.flip()
